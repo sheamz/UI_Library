@@ -1,0 +1,77 @@
+.borrow-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .borrow-list-box {
+    flex: 2;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; 
+  }
+  
+  .borrow-list-box h2 {
+    margin-top: 0;
+  }
+  
+  .borrow-list-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .borrow-list-box th, .borrow-list-box td {
+    border: 1px solid #674188;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .borrow-list-box th {
+    background-color: #E2BFD9;
+  }
+  
+  .add-borrow-box {
+    flex: 1;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-borrow-box h2 {
+    margin-top: 0;
+  }
+  
+  .add-borrow-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-borrow-box label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-borrow-box input {
+    padding: 8px;
+    border: 1px solid #674188;
+    border-radius: 5px;
+  }
+  
+  .add-borrow-box button {
+    padding: 10px;
+    border: none;
+    background-color: #674188;
+    color: #F7EFE5;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-borrow-box button:hover {
+    background-color: #5B2A6A;
+  }
+  

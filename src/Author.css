@@ -1,0 +1,77 @@
+.author-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .author-list-box {
+    flex: 2;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; 
+  }
+  
+  .author-list-box h2 {
+    margin-top: 0;
+  }
+  
+  .author-list-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .author-list-box th, .author-list-box td {
+    border: 1px solid #674188;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .author-list-box th {
+    background-color: #E2BFD9;
+  }
+  
+  .add-author-box {
+    flex: 1;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-author-box h2 {
+    margin-top: 0;
+  }
+  
+  .add-author-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-author-box label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-author-box input {
+    padding: 8px;
+    border: 1px solid #674188;
+    border-radius: 5px;
+  }
+  
+  .add-author-box button {
+    padding: 10px;
+    border: none;
+    background-color: #674188;
+    color: #F7EFE5;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-author-box button:hover {
+    background-color: #5B2A6A;
+  }
+  

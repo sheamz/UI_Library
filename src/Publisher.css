@@ -1,0 +1,77 @@
+.publisher-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .publisher-list-box {
+    flex: 2;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto; /* Add scroll if the list is too long */
+  }
+  
+  .publisher-list-box h2 {
+    margin-top: 0;
+  }
+  
+  .publisher-list-box table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .publisher-list-box th, .publisher-list-box td {
+    border: 1px solid #674188;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .publisher-list-box th {
+    background-color: #E2BFD9;
+  }
+  
+  .add-publisher-box {
+    flex: 1;
+    background-color: #F7EFE5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-publisher-box h2 {
+    margin-top: 0;
+  }
+  
+  .add-publisher-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-publisher-box label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-publisher-box input {
+    padding: 8px;
+    border: 1px solid #674188;
+    border-radius: 5px;
+  }
+  
+  .add-publisher-box button {
+    padding: 10px;
+    border: none;
+    background-color: #674188;
+    color: #F7EFE5;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-publisher-box button:hover {
+    background-color: #5B2A6A;
+  }
+  
